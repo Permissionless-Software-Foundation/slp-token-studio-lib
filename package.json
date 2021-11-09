@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A boilerplate for creating an npm library with Semantic Release, linting, and tests.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "npm run lint && TEST=unit nyc mocha test/unit/",

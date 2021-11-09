@@ -3,13 +3,13 @@
 */
 
 // npm libraries
-const chai = require('chai')
+import chai from 'chai'
+
+// Unit under test
+import UtilLib from '../../lib/util.js'
 
 // Locally global variables.
 const assert = chai.assert
-
-// Unit under test
-const UtilLib = require('../../lib/util')
 const uut = new UtilLib()
 
 describe('#util.js', () => {

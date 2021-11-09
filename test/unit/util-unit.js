@@ -3,18 +3,18 @@
 */
 
 // npm libraries
-const chai = require('chai')
-const sinon = require('sinon')
-const cloneDeep = require('lodash.clonedeep')
+import chai from 'chai'
+import sinon from 'sinon'
+import cloneDeep from 'lodash.clonedeep'
+
+// Mocking data libraries.
+import mockDataLib from './mocks/util-mocks.js'
+
+// Unit under test
+import UtilLib from '../../lib/util.js'
 
 // Locally global variables.
 const assert = chai.assert
-
-// Mocking data libraries.
-const mockDataLib = require('./mocks/util-mocks')
-
-// Unit under test
-const UtilLib = require('../../lib/util')
 const uut = new UtilLib()
 
 describe('#util.js', () => {

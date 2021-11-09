@@ -5,16 +5,14 @@
 
 /* eslint-disable no-async-promise-executor */
 
-'use strict'
+import BCHJS from '@psf/bch-js'
 
-const BCHJS = require('@psf/bch-js')
-
-const Util = require('./lib/util')
+import Util from './lib/util.js'
 const util = new Util()
 
 let _this // local global for 'this'.
 
-class BoilplateLib {
+class BoilerplateLib {
   constructor () {
     _this = this
 
@@ -23,4 +21,4 @@ class BoilplateLib {
   }
 }
 
-module.exports = BoilplateLib
+export default BoilerplateLib
