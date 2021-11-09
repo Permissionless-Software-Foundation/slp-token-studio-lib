@@ -1,4 +1,6 @@
-# npm-lib-boilerplate
+# npm-lib-boilerplate-esm
+
+This repository is the same as [npm-lib-boilerplate](https://github.com/christroutner/npm-lib-boilerplate), but all the code has been converted to work with ESModules instead of CommonJS.
 
 This repository is a code 'boilerplate' for starting a new npm library. It
 contains the following features:
@@ -13,8 +15,6 @@ contains the following features:
   - Each function is wrapped in try/catch statements, allowing thrown errors to 'bubble up' to the top-level function, and give every function along the way an opportunity to handle exceptions.
   - Testing assertions focus on properties and structure, not values.
 
-
 # Licence
+
 [MIT](LICENSE.md)
-
-
