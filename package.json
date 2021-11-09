@@ -10,8 +10,8 @@
     "test:integration": "mocha --timeout 25000 test/integration/",
     "lint": "standard --env mocha --fix",
     "docs": "./node_modules/.bin/apidoc -i src/ -o docs",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "coverage:report": "nyc --reporter=html mocha test/unit/ --exit"
+    "coverage": "c8 report --reporter=text-lcov | coveralls",
+    "coverage:report": "c8 --reporter=html mocha test/unit/ --exit"
   },
   "keywords": [
     "bitcoin",
