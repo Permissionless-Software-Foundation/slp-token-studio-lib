@@ -1,7 +1,7 @@
 {
-  "name": "@chris.troutner/npm-lib-boilerplate-esm",
+  "name": "slp-token-studio-lib",
   "version": "1.0.0",
-  "description": "A boilerplate for creating an npm library with Semantic Release, linting, and tests.",
+  "description": "Business logic library for nft-creator.fullstack.cash app",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -29,10 +29,10 @@
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "apidoc": {
-    "title": "npm-lib-boilerplate-esm",
+    "title": "slp-token-studio-lib",
     "url": "localhost:5000"
   },
-  "repository": "christroutner/npm-lib-boilerplate-esm",
+  "repository": "Permissionless-Software-Foundation/slp-token-studio-lib",
   "dependencies": {
     "@psf/bch-js": "6.4.5",
     "apidoc": "0.53.0"
